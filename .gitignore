@@ -1,0 +1,43 @@
+*.pdf 
+*.txt
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+geckodriver-v0.34.0-linux64.tar.gz
+geckodriver-v0.34.0-linux64/
+
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+env/
+venv/
+ENV/
+*.env
+build/
+dist/
+*.egg-info/
+*.egg
+bin/
+lib/
+lib64
+pyvenv.cfg
+# PyInstaller
+# Usually these files are written by a python script from a template
+# before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
