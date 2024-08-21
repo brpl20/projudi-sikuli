@@ -13,7 +13,7 @@
 
 Se você quiser avançar você pode utilizar o `popler.sh` para extrair apenas algumas folhas do PDF e o `gpt.py` para extrair informações por IA. 
 
-## Atualização 20/08/2024 
+## Atualização 20/08/2024 (secondTry.py)
 
 Parece que o Projudi alterou a forma de funcionamento e agora a cada sessão temos um novo `token` assim foi preciso adicionar alguns passos a mais: 
 
