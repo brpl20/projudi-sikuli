@@ -1,4 +1,7 @@
 *.pdf 
+.DS_Store
+
+gechodriver
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
