@@ -21,9 +21,14 @@ options.add_argument("-profile")
 options.add_argument(profile_path)
 
 # Selecionar Processos
-processos = ['0006326-22.2024.8.16.0031', '0025095-11.2024.8.16.0021', '0008957-07.2024.8.16.0170', '0026111-97.2024.8.16.0021']
-print("Listando Processos...")
-print(processos)
+processos = [
+    "0000031-44.2006.8.16.7000",
+    "0000050-94.1999.8.16.7000",
+    "0000102-17.2004.8.16.7000",
+    "0000131-38.2002.8.16.7000",
+    "0000120-33.2007.8.16.7000",
+    "0000029-40.2007.8.16.7000",
+]
 
 # Instanciar Driver
 service = Service(executable_path=gecko_driver_path)
@@ -118,17 +123,17 @@ for processo in processos:
     # Processos Externos Que não São do Advogado 
     # Hablitar aqui =--------> 
     
-    # habilitacao = driver.find_element(By.ID, "habilitacaoProvisoriaButton")    
-    # habilitacao.click()
-    # slp(4)
+    habilitacao = driver.find_element(By.ID, "habilitacaoProvisoriaButton")    
+    habilitacao.click()
+    slp(4)
 
-    # chceckbox_habilitacao = driver.find_element(By.XPATH, '//*[@id="termoAceito"]')
-    # chceckbox_habilitacao.click()
-    # slp(4)
+    chceckbox_habilitacao = driver.find_element(By.XPATH, '//*[@id="termoAceito"]')
+    chceckbox_habilitacao.click()
+    slp(4)
 
-    # habilitacao_salvar_button = driver.find_element(By.ID, "saveButton")
-    # habilitacao_salvar_button.click()
-    # slp(3)
+    habilitacao_salvar_button = driver.find_element(By.ID, "saveButton")
+    habilitacao_salvar_button.click()
+    slp(3)
 
     export_button_arrow = driver.find_element(By.ID, "btnMenuExportar")
     export_button_arrow.click()
