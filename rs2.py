@@ -117,9 +117,9 @@ def search_lawyer(insc, state, cookies, token, max_retries=3, retry_delay=10):
                 return False
 
 def main():
-    state = 'SP'
-    start_num = 417000
-    end_num = 317001
+    state = 'RS'
+    start_num = 70000
+    end_num = 1
     
     for insc in range(start_num, end_num, -1):
         cookies, token = get_initial_cookies()
