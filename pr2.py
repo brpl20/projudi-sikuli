@@ -99,9 +99,9 @@ def search_lawyer(insc, state, cookies, token):
 def main():
     cookies, token = get_initial_cookies()
     
-    state = 'SP'
-    start_num = 521999
-    end_num = 417001
+    state = 'PR'
+    start_num = 119999
+    end_num = 1 
     
     for insc in range(start_num, end_num, -1):
         search_lawyer(insc, state, cookies, token)
