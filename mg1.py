@@ -118,7 +118,7 @@ def search_lawyer(insc, state, cookies, token, max_retries=3, retry_delay=10):
 
 def main():
     state = 'MG'
-    start_num = 119999
+    start_num = 199999
     end_num = 150001
     
     for insc in range(start_num, end_num, -1):
